@@ -9,6 +9,9 @@ class MyDocument extends Document {
         <body
           className={`antialiased text-lg bg-white dark:bg-gray-900 dark:text-white leading-base`}
         >
+          {/* Add your name */}
+          <p>Created by Mandip Amgain</p>
+
           <Main />
           <NextScript />
         </body>
@@ -16,5 +19,6 @@ class MyDocument extends Document {
     );
   }
 }
+
 
 export default MyDocument;
